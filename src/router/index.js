@@ -18,12 +18,12 @@ const routes = [
 
     {
         path: '/:pathMatch(.*)*',
-        redirect: '/',
+        redirect: { name: 'home' }, // Fixed: Redirects to named route instead of root domain '/'
     },
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL), // Fixed: Passes base path from vite.config.ts
 
     routes,
 
