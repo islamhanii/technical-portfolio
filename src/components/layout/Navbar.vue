@@ -47,7 +47,7 @@ function closeMobile() {
         <div class="border-b border-white/5 bg-zinc-950/80 backdrop-blur-xl">
             <nav class="container-custom flex h-20 items-center justify-between">
                 <a href="#home" class="text-lg font-bold tracking-tight" @click="closeMobile">
-                    <span class="text-white">Islam</span>
+                    <span class="text-white">IH</span>
                     <span class="text-indigo-400">.</span>
                 </a>
 

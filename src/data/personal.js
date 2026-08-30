@@ -25,14 +25,14 @@ export const personal = {
 
     availabilityText: "Available for opportunities",
 
-    email: "your-email@example.com",
+    email: "islamhani433@gmail.com",
 
     social: {
-        github: "https://github.com/",
-        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/islamhanii",
+        linkedin: "https://www.linkedin.com/in/islam-hani-2572131ab",
     },
 
-    cv: "/cv/islam-hani-cv.pdf",
+    cv: "/cv/Islam Hani-Software Engineer CV.pdf",
 
     stats: [
         {
@@ -40,7 +40,7 @@ export const personal = {
             label: "Years Experience",
         },
         {
-            value: "10+",
+            value: "15+",
             label: "Projects",
         },
         {
