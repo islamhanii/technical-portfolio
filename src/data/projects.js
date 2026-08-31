@@ -56,7 +56,7 @@ export const projects = [
         ],
 
         links: {
-            live: '',
+            live: 'https://almonqez-alshamel.com',
             github: '',
         },
     },
@@ -124,7 +124,7 @@ export const projects = [
         ],
 
         links: {
-            live: '',
+            live: 'https://maqadhina.com',
             github: '',
         },
     },
@@ -188,7 +188,7 @@ export const projects = [
         ],
 
         links: {
-            live: '',
+            live: 'https://igo-app.com',
             github: '',
         },
     },
@@ -315,7 +315,7 @@ export const projects = [
         ],
 
         links: {
-            live: '',
+            live: 'https://shumua.edu.sa/ar',
             github: '',
         },
     },
@@ -379,7 +379,7 @@ export const projects = [
         ],
 
         links: {
-            live: '',
+            live: 'https://nahrjari.com.sa',
             github: '',
         },
     },
@@ -510,7 +510,7 @@ export const projects = [
         ],
 
         links: {
-            live: '',
+            live: 'https://shamah-academy.com',
             github: '',
         },
     },
@@ -699,7 +699,7 @@ export const projects = [
         ],
 
         links: {
-            live: '',
+            live: 'https://play.google.com/store/apps/details?id=com.art4muslim.mowrdenk&pli=1',
             github: '',
         },
     },
@@ -760,7 +760,7 @@ export const projects = [
         ],
 
         links: {
-            live: '',
+            live: 'https://redp-sa.com',
             github: '',
         },
     },
