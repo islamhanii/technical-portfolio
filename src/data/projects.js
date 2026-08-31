@@ -13,7 +13,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/savior.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/savior.jpeg`,
 
         technologies: [
             'PHP',
@@ -75,7 +75,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/maqadeenah.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/maqadeenah.jpeg`,
 
         technologies: [
             'PHP',
@@ -143,7 +143,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/igo.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/igo.jpeg`,
 
         technologies: [
             'PHP',
@@ -207,7 +207,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/khamseen.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/khamseen.jpeg`,
 
         technologies: [
             'PHP',
@@ -271,7 +271,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/shumua-alami.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/shumua-alami.jpeg`,
 
         technologies: [
             'PHP',
@@ -334,7 +334,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/flowing-river.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/flowing-river.jpeg`,
 
         technologies: [
             'PHP',
@@ -398,7 +398,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/barwa.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/barwa.jpeg`,
 
         technologies: [
             'PHP',
@@ -464,7 +464,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/shamaa.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/shamaa.jpeg`,
 
         technologies: [
             'PHP',
@@ -529,7 +529,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/referrals.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/referrals.jpeg`,
 
         technologies: [
             'PHP',
@@ -581,7 +581,7 @@ export const projects = [
         slug: 'the-gala',
         name: 'The Gala',
         category: 'Event Marketplace',
-        featured: true,
+        featured: false,
 
         shortDescription:
             'An event-planning marketplace connecting private clients with wedding service providers and vendors.',
@@ -591,7 +591,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/the-gala.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/the-gala.jpeg`,
 
         technologies: [
             'PHP',
@@ -655,7 +655,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/mordinek.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/mordinek.jpeg`,
 
         technologies: [
             'PHP',
@@ -718,7 +718,7 @@ export const projects = [
 
         role: 'Backend Engineer',
         status: 'Production',
-        image: '/images/projects/masarat.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/masarat.jpeg`,
 
         technologies: [
             'PHP',
