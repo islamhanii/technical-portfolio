@@ -1,15 +1,11 @@
 export const education = [
     {
         institution:
-            'Faculty of Computer and Artificial Intelligence — Cairo University',
-
-        degree: 'Information Technology',
-
-        type: 'Bachelor Degree',
-
-        location: 'Cairo, Egypt',
-
-        description:
-            'Studied computer science and information technology fundamentals including programming, databases, software engineering, and computer systems.',
+            "Faculty of Computers and Artificial Intelligence — Cairo University",
+        degree: "Computer Science & Artificial Intelligence",
+        type: "Bachelor's Degree",
+        location: "Giza, Egypt",
+        graduationDate: "Jan 2022",
+        description: "Built a rigorous academic foundation in software engineering principles, object-oriented design, data structures, algorithms, database arcitectures, artificial intelligence, and computer networks. Applied theoretical computer science concepts across hands-on engineering projects and complex problem-solving domains.",
     },
-]
+];

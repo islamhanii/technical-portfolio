@@ -42,7 +42,7 @@ export const personal = {
             label: "Years Experience",
         },
         {
-            value: "15+",
+            value: "10+",
             label: "Projects",
         },
         {

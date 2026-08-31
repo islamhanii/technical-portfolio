@@ -1,53 +1,50 @@
 export const projects = [
     {
-        slug: 'shamaa-training-academy',
-
-        name: 'Shamaa Training Academy',
-
-        category: 'E-Learning Platform',
-
+        slug: 'almonqez-alshamel',
+        name: 'Al-Monqez Al-Shamel',
+        category: 'Maintenance Services & Marketplace',
         featured: true,
 
         shortDescription:
-            'An educational platform designed to manage courses, students, educational content, and learning workflows.',
+            'A dual-application ecosystem combining a maintenance on-demand service platform and a comprehensive multi-vendor marketplace.',
 
         description:
-            'A complete e-learning platform focused on providing structured educational experiences while giving administrators and instructors the tools required to manage courses and learners.',
+            'A production ecosystem connecting customers, maintenance service providers, vendors, and platform administrators through a unified platform with marketplace and financial workflows.',
 
         role: 'Backend Engineer',
-
         status: 'Production',
-
-        image: '/images/projects/shamaa.jpg',
+        image: '/images/projects/savior.jpg',
 
         technologies: [
             'PHP',
             'Laravel',
             'MySQL',
             'REST API',
-            'Vue.js',
+            'Tabby API',
+            'Tamara API',
         ],
 
         features: [
-            'Course management',
-            'Student management',
-            'Enrollment workflows',
-            'Educational content management',
-            'Authentication and authorization',
-            'Progress tracking',
-            'Notifications',
+            'Multi-vendor marketplace',
+            'Maintenance services',
+            'Vendor management',
+            'Customer management',
+            'Administrative dashboard',
+            'Split payments',
+            'Buy Now, Pay Later (BNPL)',
+            'Financial workflows',
         ],
 
         challenges: [
-            'Designing a maintainable backend structure for multiple educational workflows.',
-            'Managing relationships between users, courses, enrollments, and progress.',
-            'Keeping database queries efficient as application data grows.',
+            'Managing complex relationships between vendors, clients, and platform administrators.',
+            'Integrating multiple payment workflows with external fintech providers.',
+            'Keeping financial transactions and business states consistent.',
         ],
 
         solutions: [
-            'Structured backend functionality into reusable application services.',
-            'Used Eloquent relationships and eager loading appropriately.',
-            'Optimized database queries and reduced unnecessary database operations.',
+            'Engineered a unified administrative dashboard managing complex relationships across vendors, clients, and platform administrators.',
+            'Architected and integrated fintech workflows supporting split payments and BNPL.',
+            'Integrated Tabby and Tamara APIs into the payment workflow.',
         ],
 
         architecture: [
@@ -55,188 +52,7 @@ export const projects = [
             'Service-oriented backend logic',
             'RESTful APIs',
             'Relational database architecture',
-        ],
-
-        links: {
-            live: '',
-            github: '',
-        },
-    },
-
-    {
-        slug: 'gogo-done',
-
-        name: 'GOGO DONE',
-
-        category: 'Maintenance Services',
-
-        featured: true,
-
-        shortDescription:
-            'A service platform connecting customers with maintenance and home service workflows.',
-
-        description:
-            'A maintenance services platform designed to manage customer requests, service providers, orders, and operational workflows.',
-
-        role: 'Full Stack Engineer',
-
-        status: 'Production',
-
-        image: '/images/projects/gogo-done.jpg',
-
-        technologies: [
-            'PHP',
-            'Laravel',
-            'MySQL',
-            'Vue.js',
-            'REST API',
-        ],
-
-        features: [
-            'Service management',
-            'Customer requests',
-            'Order workflows',
-            'User management',
-            'API integration',
-            'Notifications',
-        ],
-
-        challenges: [
-            'Managing multiple actors within the same business workflow.',
-            'Keeping service and order states consistent.',
-        ],
-
-        solutions: [
-            'Implemented structured application workflows.',
-            'Separated business logic from controllers.',
-            'Used validation and database transactions where appropriate.',
-        ],
-
-        architecture: [
-            'Laravel MVC',
-            'REST API',
-            'Service layer',
-            'MySQL',
-        ],
-
-        links: {
-            live: '',
-            github: '',
-        },
-    },
-
-    {
-        slug: 'igo',
-
-        name: 'iGO',
-
-        category: 'Transportation',
-
-        featured: true,
-
-        shortDescription:
-            'A transportation platform for managing taxi trips and related user workflows.',
-
-        description:
-            'A transportation application supporting trip management and interactions between customers and drivers.',
-
-        role: 'Backend Engineer',
-
-        status: 'Production',
-
-        image: '/images/projects/igo.jpg',
-
-        technologies: [
-            'PHP',
-            'Laravel',
-            'MySQL',
-            'REST API',
-        ],
-
-        features: [
-            'Trip management',
-            'Customer workflows',
-            'Driver workflows',
-            'Trip status management',
-            'API communication',
-            'Notifications',
-        ],
-
-        challenges: [
-            'Managing state transitions throughout a trip lifecycle.',
-            'Handling multiple user roles and permissions.',
-        ],
-
-        solutions: [
-            'Designed explicit workflow states.',
-            'Implemented role-aware authorization.',
-            'Structured API endpoints around application resources.',
-        ],
-
-        architecture: [
-            'Laravel',
-            'REST API',
-            'MySQL',
-            'Role-based authorization',
-        ],
-
-        links: {
-            live: '',
-            github: '',
-        },
-    },
-
-    {
-        slug: 'barwa',
-
-        name: 'Barwa',
-
-        category: 'Real Estate',
-
-        featured: true,
-
-        shortDescription:
-            'A real estate platform for managing properties and property-related information.',
-
-        description:
-            'A real estate application focused on organizing property information and providing users with structured property discovery workflows.',
-
-        role: 'Backend Engineer',
-
-        status: 'Production',
-
-        image: '/images/projects/barwa.jpg',
-
-        technologies: [
-            'PHP',
-            'Laravel',
-            'MySQL',
-            'REST API',
-        ],
-
-        features: [
-            'Property management',
-            'Property categorization',
-            'Search workflows',
-            'User management',
-            'API endpoints',
-        ],
-
-        challenges: [
-            'Designing flexible property data structures.',
-            'Supporting filtering and structured property discovery.',
-        ],
-
-        solutions: [
-            'Designed normalized relational structures.',
-            'Built reusable filtering and query logic.',
-        ],
-
-        architecture: [
-            'Laravel MVC',
-            'Eloquent ORM',
-            'MySQL',
-            'REST API',
+            'Third-party payment integrations',
         ],
 
         links: {
@@ -247,23 +63,18 @@ export const projects = [
 
     {
         slug: 'maqadeenah',
-
         name: 'Maqadeenah',
-
-        category: 'E-Commerce',
-
+        category: 'SaaS & E-Commerce',
         featured: true,
 
         shortDescription:
-            'A multilingual household-goods ordering platform with subscriptions and family accounts.',
+            'A multilingual household utility and collaborative provisioning application tailored for family expense management.',
 
         description:
-            'A multi-language ordering platform supporting household goods, subscription workflows, and family accounts.',
+            'A SaaS household provisioning application supporting household goods ordering, family accounts, recurring subscriptions, purchasing cycles, and multilingual experiences.',
 
         role: 'Backend Engineer',
-
         status: 'Production',
-
         image: '/images/projects/maqadeenah.jpg',
 
         technologies: [
@@ -271,35 +82,45 @@ export const projects = [
             'Laravel',
             'MySQL',
             'REST API',
+            'Localization',
+            'Subscription Billing',
         ],
 
         features: [
             'Product ordering',
-            'Subscriptions',
+            'Monthly subscriptions',
+            'Yearly subscriptions',
             'Family accounts',
-            'Multilingual support',
-            'User management',
-            'Order management',
+            'Arabic',
+            'English',
+            'Urdu',
+            'Indonesian',
+            'Calendar scheduling',
+            'Automated purchase cycles',
+            'Dynamic invoice links',
         ],
 
         challenges: [
-            'Supporting multiple languages.',
+            'Supporting global operations across four languages.',
             'Managing family-based account structures.',
             'Handling recurring subscription workflows.',
+            'Building calendar-based automated purchasing cycles.',
         ],
 
         solutions: [
-            'Designed data structures around users and family relationships.',
-            'Separated subscription and ordering workflows.',
-            'Implemented localization-aware application logic.',
+            'Designed a cross-border localized architecture supporting Arabic, English, Urdu, and Indonesian.',
+            'Implemented a secure monthly/yearly subscription engine.',
+            'Created custom calendar scheduling algorithms for automated purchase cycles.',
+            'Implemented shareable dynamic invoice links.',
         ],
 
         architecture: [
             'Laravel MVC',
-            'Service layer',
-            'MySQL',
-            'REST API',
+            'Service-oriented backend logic',
+            'RESTful APIs',
+            'Relational database architecture',
             'Localization',
+            'Subscription workflows',
         ],
 
         links: {
@@ -309,51 +130,509 @@ export const projects = [
     },
 
     {
-        slug: 'masarat',
-
-        name: 'Masarat',
-
-        category: 'Business Platform',
-
-        featured: false,
+        slug: 'igo',
+        name: 'iGO',
+        category: 'Transportation & Logistics',
+        featured: true,
 
         shortDescription:
-            'A business-focused web application with structured backend workflows.',
+            'A real-time ride-hailing, taxi booking, and logistics dispatch platform.',
 
         description:
-            'A web application built around business workflows and data management.',
+            'A real-time transportation platform supporting taxi bookings, driver and passenger workflows, geolocation, routing, communication, and trip lifecycle management.',
 
         role: 'Backend Engineer',
-
         status: 'Production',
-
-        image: '/images/projects/masarat.jpg',
+        image: '/images/projects/igo.jpg',
 
         technologies: [
             'PHP',
             'Laravel',
             'MySQL',
+            'REST API',
+            'Geolocation',
+            'Real-Time Communication',
         ],
 
         features: [
-            'Business workflows',
-            'User management',
-            'Data management',
-            'REST APIs',
+            'Taxi booking',
+            'Trip management',
+            'Driver workflows',
+            'Passenger workflows',
+            'Pickup/drop-off mapping',
+            'Driver routing',
+            'Real-time communication',
+            'Trip state management',
         ],
 
         challenges: [
-            'Translating business requirements into maintainable application logic.',
+            'Managing real-time driver-to-passenger communication.',
+            'Maintaining accurate trip state transitions during transit.',
+            'Handling geolocation and coordinate-based pickup/drop-off logic.',
+            'Maintaining low-latency communication between application clients.',
         ],
 
         solutions: [
-            'Created reusable backend components and structured application services.',
+            'Built high-performance geolocation backend logic utilizing map coordinate computations for accurate pickup/drop-off mapping and driver routing.',
+            'Optimized low-latency data polling loops to support real-time driver-to-passenger communication.',
+            'Implemented accurate state machine transitions throughout the trip lifecycle.',
         ],
 
         architecture: [
+            'Laravel MVC',
+            'RESTful APIs',
+            'Geolocation services',
+            'Real-time polling',
+            'State-machine workflows',
+            'MySQL',
+        ],
+
+        links: {
+            live: '',
+            github: '',
+        },
+    },
+
+    {
+        slug: 'khamseen',
+        name: 'Khamseen',
+        category: 'Freelancing Marketplace',
+        featured: false,
+
+        shortDescription:
+            'A dynamic on-demand freelancing marketplace facilitating real-time project collaboration.',
+
+        description:
+            'A freelancing marketplace connecting clients with service providers through project management, escrow payments, wallet payouts, real-time chat, and collaborative workflows.',
+
+        role: 'Backend Engineer',
+        status: 'Production',
+        image: '/images/projects/khamseen.jpg',
+
+        technologies: [
+            'PHP',
             'Laravel',
             'MySQL',
             'REST API',
+            'Real-Time Chat',
+            'Payment Workflows',
+        ],
+
+        features: [
+            'Freelance projects',
+            'Client management',
+            'Service-provider workflows',
+            'Escrow payments',
+            'Wallet payouts',
+            'Real-time chat',
+            'Project collaboration',
+            'Project management',
+        ],
+
+        challenges: [
+            'Managing financial operations between clients and service providers.',
+            'Maintaining escrow and wallet states across project lifecycles.',
+            'Supporting real-time negotiation and project communication.',
+        ],
+
+        solutions: [
+            'Authored a secure escrow payment and wallet payout subsystem.',
+            'Designed transactional financial workflows between clients and service providers.',
+            'Built an integrated real-time chat framework for client-freelancer negotiation.',
+            'Integrated project communication with inline project management workflows.',
+        ],
+
+        architecture: [
+            'Laravel MVC',
+            'Service-oriented backend logic',
+            'RESTful APIs',
+            'Transactional financial workflows',
+            'Real-time communication',
+            'MySQL',
+        ],
+
+        links: {
+            live: '',
+            github: '',
+        },
+    },
+
+    {
+        slug: 'shumua-alami',
+        name: 'Shumua Al-AmI',
+        category: 'E-Learning & Rehabilitation',
+        featured: true,
+
+        shortDescription:
+            'An enterprise e-learning and rehabilitation management platform serving individuals with special needs.',
+
+        description:
+            'A specialized educational and rehabilitation management platform supporting clinical assessments, progress reporting, adaptive learning, and administrative workflows.',
+
+        role: 'Backend Engineer',
+        status: 'Production',
+        image: '/images/projects/shumua-alami.jpg',
+
+        technologies: [
+            'PHP',
+            'Laravel',
+            'MySQL',
+            'REST API',
+            'Vue.js',
+            'Accessibility',
+        ],
+
+        features: [
+            'Clinical assessments',
+            'Progress reporting',
+            'Adaptive learning',
+            'Educational workflows',
+            'Administrative management',
+            'Accessibility',
+            'Secure data management',
+        ],
+
+        challenges: [
+            'Managing specialized clinical assessment and rehabilitation workflows.',
+            'Maintaining reliable frontend and backend communication.',
+            'Supporting accessibility requirements.',
+            'Maintaining data security and application reliability.',
+        ],
+
+        solutions: [
+            'Scaled and maintained specialized administrative infrastructure for clinical assessments and progress reporting.',
+            'Refactored frontend and backend communication layers.',
+            'Focused on accessibility compliance and data security.',
+            'Maintained reliable application availability for users.',
+        ],
+
+        architecture: [
+            'Laravel MVC',
+            'RESTful APIs',
+            'Vue.js',
+            'Relational database architecture',
+            'Administrative infrastructure',
+        ],
+
+        links: {
+            live: '',
+            github: '',
+        },
+    },
+
+    {
+        slug: 'alnahr-aljari',
+        name: 'Al-Nahr Al-Jari',
+        category: 'Educational & Community Platform',
+        featured: true,
+
+        shortDescription:
+            'A high-traffic, multilingual educational and community portal optimized for spiritual development resources.',
+
+        description:
+            'A multilingual educational and community platform providing spiritual development resources while supporting a large active concurrent user base.',
+
+        role: 'Backend Engineer',
+        status: 'Production',
+        image: '/images/projects/flowing-river.jpg',
+
+        technologies: [
+            'PHP',
+            'Laravel',
+            'MySQL',
+            'REST API',
+            'Redis',
+            'OAuth 2.0',
+            'Google Authentication',
+        ],
+
+        features: [
+            'Multilingual content',
+            'Educational resources',
+            'Community features',
+            'User authentication',
+            'Google Authentication',
+            'Performance optimization',
+            'Legacy codebase maintenance',
+        ],
+
+        challenges: [
+            'Scaling legacy code for a large active concurrent user base.',
+            'Maintaining application performance while expanding platform capacity.',
+            'Providing secure user onboarding.',
+        ],
+
+        solutions: [
+            'Contributed to performance tuning and refactoring of legacy codebases.',
+            'Expanded platform capacity to handle a large active concurrent user base.',
+            'Integrated secure OAuth 2.0 Google Authentication.',
+            'Streamlined user onboarding while protecting profile data.',
+        ],
+
+        architecture: [
+            'Laravel MVC',
+            'RESTful APIs',
+            'OAuth 2.0',
+            'Google Authentication',
+            'Redis',
+            'MySQL',
+        ],
+
+        links: {
+            live: '',
+            github: '',
+        },
+    },
+
+    {
+        slug: 'barwa',
+        name: 'Barwa',
+        category: 'Real Estate',
+        featured: false,
+
+        shortDescription:
+            'A real-time estate marketplace and property aggregation platform for rental and sales operations.',
+
+        description:
+            'A real estate marketplace supporting property listings, rental and sales operations, advanced filtering, broker-client communication, and transaction tracking.',
+
+        role: 'Backend Engineer',
+        status: 'Production',
+        image: '/images/projects/barwa.jpg',
+
+        technologies: [
+            'PHP',
+            'Laravel',
+            'MySQL',
+            'REST API',
+            'Real-Time Messaging',
+            'Multi-Tenant Architecture',
+        ],
+
+        features: [
+            'Property listings',
+            'Rental operations',
+            'Sales operations',
+            'Advanced property filters',
+            'Broker management',
+            'Client management',
+            'Real-time messaging',
+            'Transaction tracking',
+        ],
+
+        challenges: [
+            'Supporting scalable property listings.',
+            'Building advanced property filtering.',
+            'Managing multi-tenant data structures.',
+            'Maintaining real-time broker-to-client communication.',
+            'Tracking transactions through their complete lifecycle.',
+        ],
+
+        solutions: [
+            'Structured multi-tenant databases for scalable property listings.',
+            'Built advanced filter queries for property discovery.',
+            'Implemented instantaneous broker-to-client messaging pipelines.',
+            'Created transaction tracking from initial lead through closed contract.',
+        ],
+
+        architecture: [
+            'Laravel MVC',
+            'Multi-tenant database architecture',
+            'Eloquent ORM',
+            'RESTful APIs',
+            'Real-time messaging',
+            'MySQL',
+        ],
+
+        links: {
+            live: '',
+            github: '',
+        },
+    },
+
+    {
+        slug: 'shamaa-training-academy',
+        name: 'Shamaa Training Academy',
+        category: 'Learning Management System',
+        featured: true,
+
+        shortDescription:
+            'A scalable Learning Management System delivering asynchronous and synchronous educational training.',
+
+        description:
+            'A scalable LMS supporting recorded lessons, synchronous training, time-limited assessments, progress tracking, automated certificates, and high-traffic examination workflows.',
+
+        role: 'Backend Engineer',
+        status: 'Production',
+        image: '/images/projects/shamaa.jpg',
+
+        technologies: [
+            'PHP',
+            'Laravel',
+            'MySQL',
+            'Redis',
+            'REST API',
+            'Vue.js',
+        ],
+
+        features: [
+            'Course management',
+            'Student management',
+            'Recorded video lessons',
+            'Synchronous training',
+            'Time-limited assessments',
+            'Progress tracking',
+            'Automated certificates',
+            'Redis caching',
+        ],
+
+        challenges: [
+            'Handling multimedia educational content.',
+            'Managing dynamic time-limited assessments.',
+            'Generating certificates automatically.',
+            'Preventing performance bottlenecks during synchronized examination windows.',
+        ],
+
+        solutions: [
+            'Programmed a multimedia delivery pipeline for recorded video lessons.',
+            'Implemented dynamic time-limited assessment workflows.',
+            'Built automated certificate generation engines.',
+            'Implemented Redis caching to prevent performance bottlenecks during synchronized examinations.',
+        ],
+
+        architecture: [
+            'Laravel MVC',
+            'Service-oriented backend logic',
+            'RESTful APIs',
+            'Redis caching',
+            'Relational database architecture',
+            'Vue.js',
+        ],
+
+        links: {
+            live: '',
+            github: '',
+        },
+    },
+
+    {
+        slug: 'referrals',
+        name: 'Referrals',
+        category: 'HR Technology',
+        featured: false,
+
+        shortDescription:
+            'A peer-to-peer HR technology platform streamlining corporate recruitment through networking.',
+
+        description:
+            'An HR technology platform connecting employees, coordinators, and candidates through recruitment referrals, candidate tracking, and automated reward workflows.',
+
+        role: 'Backend Engineer',
+        status: 'Production',
+        image: '/images/projects/referrals.jpg',
+
+        technologies: [
+            'PHP',
+            'Laravel',
+            'MySQL',
+            'REST API',
+            'RBAC',
+        ],
+
+        features: [
+            'Candidate referrals',
+            'Recruitment workflows',
+            'Role-Based Access Control',
+            'Coordinator management',
+            'Employee management',
+            'Candidate management',
+            'Recommendation tracking',
+            'Reward payouts',
+        ],
+
+        challenges: [
+            'Designing granular permissions across different recruitment roles.',
+            'Tracking candidates through multiple recruitment stages.',
+            'Automating rewards after successful placements.',
+        ],
+
+        solutions: [
+            'Engineered a granular Role-Based Access Control system.',
+            'Segmented permissions between Coordinators, Employees, and Candidates.',
+            'Built pipelines tracking recommendations and candidate processing.',
+            'Implemented automatic reward payouts upon successful placements.',
+        ],
+
+        architecture: [
+            'Laravel MVC',
+            'RBAC',
+            'RESTful APIs',
+            'Workflow tracking',
+            'MySQL',
+        ],
+
+        links: {
+            live: '',
+            github: '',
+        },
+    },
+
+    {
+        slug: 'the-gala',
+        name: 'The Gala',
+        category: 'Event Marketplace',
+        featured: true,
+
+        shortDescription:
+            'An event-planning marketplace connecting private clients with wedding service providers and vendors.',
+
+        description:
+            'An event-planning marketplace providing booking, scheduling, vendor management, custom packages, and real-time client-vendor communication.',
+
+        role: 'Backend Engineer',
+        status: 'Production',
+        image: '/images/projects/the-gala.jpg',
+
+        technologies: [
+            'PHP',
+            'Laravel',
+            'MySQL',
+            'REST API',
+            'Real-Time Chat',
+        ],
+
+        features: [
+            'Event planning',
+            'Vendor management',
+            'Service packages',
+            'Booking management',
+            'Calendar scheduling',
+            'Conflict prevention',
+            'Vendor portals',
+            'Chat threads',
+        ],
+
+        challenges: [
+            'Preventing scheduling conflicts between bookings.',
+            'Keeping booking states synchronized.',
+            'Allowing vendors to independently manage their services and packages.',
+        ],
+
+        solutions: [
+            'Developed a centralized booking engine with automated calendar locks.',
+            'Implemented booking state synchronization.',
+            'Created vendor portals for independent service management.',
+            'Implemented custom package creation.',
+            'Unified client-vendor communication through chat threads.',
+        ],
+
+        architecture: [
+            'Laravel MVC',
+            'RESTful APIs',
+            'Booking engine',
+            'Calendar locking',
+            'Real-time communication',
+            'MySQL',
         ],
 
         links: {
@@ -364,48 +643,119 @@ export const projects = [
 
     {
         slug: 'mordinek',
-
         name: 'Mordinek',
-
-        category: 'Web Application',
-
-        featured: false,
+        category: 'B2B E-Commerce & Logistics',
+        featured: true,
 
         shortDescription:
-            'A production web application with Laravel-powered backend functionality.',
+            'A B2B e-commerce and logistics platform connecting wholesalers and retailers through supply-chain workflows.',
 
         description:
-            'A web application involving structured backend functionality and data-driven workflows.',
+            'A B2B commerce and logistics platform supporting wholesale transactions, tiered subscriptions, SaaS metrics, stock alerts, bulk ordering, and high-volume inventory updates.',
 
         role: 'Backend Engineer',
-
         status: 'Production',
-
         image: '/images/projects/mordinek.jpg',
 
         technologies: [
             'PHP',
             'Laravel',
             'MySQL',
+            'REST API',
+            'SaaS',
+            'Subscription Workflows',
         ],
 
         features: [
-            'Backend workflows',
-            'Data management',
-            'Authentication',
-            'API endpoints',
+            'B2B e-commerce',
+            'Wholesale ordering',
+            'Retailer management',
+            'Tiered subscriptions',
+            'SaaS metrics',
+            'Automated stock alerts',
+            'Bulk-order pipelines',
+            'Inventory management',
         ],
 
         challenges: [
-            'Maintaining a clean backend structure as features evolved.',
+            'Processing massive payloads during bulk inventory updates.',
+            'Supporting tiered subscription functionality.',
+            'Maintaining API performance during high-volume operations.',
         ],
 
         solutions: [
-            'Refactored repetitive functionality into reusable components.',
+            'Architected a tiered subscription model unlocking premium SaaS metrics.',
+            'Implemented automated stock alerts.',
+            'Built bulk-order wholesale pipelines.',
+            'Optimized API endpoints responsible for high-volume bulk inventory updates.',
         ],
 
         architecture: [
             'Laravel MVC',
+            'RESTful APIs',
+            'SaaS architecture',
+            'Subscription workflows',
+            'MySQL',
+        ],
+
+        links: {
+            live: '',
+            github: '',
+        },
+    },
+
+    {
+        slug: 'masarat',
+        name: 'Masarat',
+        category: 'Real Estate Showcase',
+        featured: true,
+
+        shortDescription:
+            'A real estate showcase portal displaying premium residential developments, construction updates, and localized news.',
+
+        description:
+            'A real estate showcase and transaction platform presenting residential developments, construction updates, localized news, unit reservations, and high-fidelity media.',
+
+        role: 'Backend Engineer',
+        status: 'Production',
+        image: '/images/projects/masarat.jpg',
+
+        technologies: [
+            'PHP',
+            'Laravel',
+            'MySQL',
+            'REST API',
+            'Media Hosting',
+        ],
+
+        features: [
+            'Residential developments',
+            'Property showcase',
+            'Construction updates',
+            'Localized news',
+            'Unit reservations',
+            'Direct communication',
+            'Blueprint hosting',
+            'Virtual imagery',
+        ],
+
+        challenges: [
+            'Supporting high-fidelity media and large visual assets.',
+            'Building a direct-purchase transactional workflow.',
+            'Maintaining fast access to blueprint files and virtual imagery.',
+        ],
+
+        solutions: [
+            'Deployed a direct-purchase transactional wizard for residential housing units.',
+            'Enabled direct communication between users and project officials.',
+            'Configured high-fidelity media hosting for structural blueprint files and virtual imagery.',
+        ],
+
+        architecture: [
+            'Laravel MVC',
+            'RESTful APIs',
+            'Transactional workflows',
+            'Media hosting',
             'MySQL',
         ],
 

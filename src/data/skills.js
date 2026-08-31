@@ -1,44 +1,54 @@
 export const skillGroups = [
     {
-        title: "Backend",
-        description: "Building robust and maintainable server-side systems.",
+        title: "Backend Engineering",
+        description: "Architecting high-performance server-side architectures, APIs, and micro-services.",
         skills: [
             {
                 name: "PHP",
-                level: "Advanced",
+                level: "Expert",
                 icon: "php",
             },
             {
                 name: "Laravel",
-                level: "Advanced",
+                level: "Expert",
                 icon: "laravel",
             },
             {
-                name: "REST APIs",
+                name: "RESTful APIs",
                 level: "Advanced",
                 icon: "api",
             },
             {
-                name: "Eloquent ORM",
+                name: "System Design & SOLID",
                 level: "Advanced",
-                icon: "database",
+                icon: "layers",
             },
             {
-                name: "Authentication",
+                name: "Redis Caching",
+                level: "Advanced",
+                icon: "zap",
+            },
+            {
+                name: "Queues & Async Jobs",
+                level: "Advanced",
+                icon: "repeat",
+            },
+            {
+                name: "Auth & RBAC (OAuth 2.0)",
                 level: "Advanced",
                 icon: "shield",
             },
             {
-                name: "Queues & Jobs",
+                name: "Fintech & Payment Integration",
                 level: "Strong",
-                icon: "layers",
+                icon: "credit-card",
             },
         ],
     },
 
     {
-        title: "Database",
-        description: "Designing and optimizing relational data systems.",
+        title: "Database Systems",
+        description: "Designing, normalizing, and optimizing high-throughput data layers.",
         skills: [
             {
                 name: "MySQL",
@@ -46,27 +56,22 @@ export const skillGroups = [
                 icon: "database",
             },
             {
-                name: "SQL",
-                level: "Advanced",
+                name: "PostgreSQL",
+                level: "Strong",
                 icon: "database",
             },
             {
-                name: "Database Design",
-                level: "Strong",
+                name: "Database Design & Normalization",
+                level: "Advanced",
                 icon: "table",
             },
             {
-                name: "Query Optimization",
-                level: "Strong",
+                name: "Query Tuning & Indexing",
+                level: "Advanced",
                 icon: "zap",
             },
             {
-                name: "Indexes",
-                level: "Strong",
-                icon: "search",
-            },
-            {
-                name: "Transactions",
+                name: "Transactions & ACID",
                 level: "Strong",
                 icon: "repeat",
             },
@@ -74,18 +79,13 @@ export const skillGroups = [
     },
 
     {
-        title: "Frontend",
-        description: "Collaborating on modern web and SPA applications.",
+        title: "Frontend Development",
+        description: "Crafting modern, reactive single-page applications and client interfaces.",
         skills: [
             {
-                name: "Vue 3",
+                name: "Vue.js 3",
                 level: "Strong",
                 icon: "code",
-            },
-            {
-                name: "JavaScript",
-                level: "Strong",
-                icon: "braces",
             },
             {
                 name: "Inertia.js",
@@ -93,14 +93,19 @@ export const skillGroups = [
                 icon: "layers",
             },
             {
-                name: "HTML",
-                level: "Advanced",
-                icon: "code",
+                name: "JavaScript (ES6+) / TypeScript",
+                level: "Strong",
+                icon: "braces",
             },
             {
-                name: "CSS",
+                name: "Tailwind CSS & Bootstrap",
                 level: "Advanced",
                 icon: "palette",
+            },
+            {
+                name: "HTML5 & CSS3",
+                level: "Advanced",
+                icon: "code",
             },
             {
                 name: "Vite",
@@ -111,36 +116,36 @@ export const skillGroups = [
     },
 
     {
-        title: "DevOps & Tools",
-        description: "Development workflows and application infrastructure.",
+        title: "DevOps & Infrastructure",
+        description: "Automating environments, deployment pipelines, and cloud storage integrations.",
         skills: [
             {
-                name: "Git",
+                name: "Git & GitFlow",
                 level: "Advanced",
                 icon: "git-branch",
             },
             {
-                name: "Docker",
+                name: "Docker & Containerization",
                 level: "Strong",
                 icon: "box",
             },
             {
-                name: "Linux",
+                name: "AWS S3",
+                level: "Strong",
+                icon: "server",
+            },
+            {
+                name: "Nginx Server Config",
+                level: "Strong",
+                icon: "server",
+            },
+            {
+                name: "Linux Administration",
                 level: "Strong",
                 icon: "terminal",
             },
             {
-                name: "GitHub",
-                level: "Advanced",
-                icon: "github",
-            },
-            {
-                name: "Nginx",
-                level: "Working Knowledge",
-                icon: "server",
-            },
-            {
-                name: "CI/CD",
+                name: "CI/CD Workflows",
                 level: "Working Knowledge",
                 icon: "workflow",
             },
