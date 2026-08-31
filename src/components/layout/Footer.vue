@@ -1,9 +1,8 @@
 <script setup>
+import { Icon } from '@iconify/vue'
 import {
-    Github,
-    Linkedin,
-    Mail,
     ArrowUp,
+    Mail,
 } from 'lucide-vue-next'
 
 import { personal } from '@/data/personal'
@@ -32,13 +31,13 @@ const year = new Date().getFullYear()
                 <a :href="personal.social.github" target="_blank" rel="noopener noreferrer"
                     class="rounded-lg border border-zinc-800 p-2.5 text-zinc-400 transition hover:border-zinc-700 hover:text-white"
                     aria-label="GitHub">
-                    <Github :size="18" />
+                    <Icon icon="simple-icons:github" class="h-[18px] w-[18px]" />
                 </a>
 
                 <a :href="personal.social.linkedin" target="_blank" rel="noopener noreferrer"
                     class="rounded-lg border border-zinc-800 p-2.5 text-zinc-400 transition hover:border-zinc-700 hover:text-white"
                     aria-label="LinkedIn">
-                    <Linkedin :size="18" />
+                    <Icon icon="simple-icons:linkedin" class="h-[18px] w-[18px]" />
                 </a>
 
                 <a :href="`mailto:${personal.email}`"

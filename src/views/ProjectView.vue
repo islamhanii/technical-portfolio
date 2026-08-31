@@ -1,8 +1,8 @@
 <script setup>
+import { Icon } from '@iconify/vue'
 import {
     ArrowLeft,
     ExternalLink,
-    Github,
     CheckCircle2,
 } from 'lucide-vue-next'
 
@@ -54,7 +54,7 @@ const project = computed(() =>
                     <a v-if="project.links.github" :href="project.links.github" target="_blank"
                         rel="noopener noreferrer"
                         class="inline-flex items-center gap-2 rounded-full border border-zinc-700 px-5 py-3 text-sm font-semibold text-white transition hover:border-zinc-500">
-                        <Github :size="16" />
+                        <Icon icon="simple-icons:github" class="h-[16px] w-[16px]" />
                         View Code
                     </a>
 

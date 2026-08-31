@@ -32,7 +32,7 @@ export const personal = {
         linkedin: "https://www.linkedin.com/in/islam-hani-2572131ab",
     },
 
-    cv: "/cv/Islam Hani-Software Engineer CV.pdf",
+    cv: `${import.meta.env.BASE_URL}cv/Islam_Hani_Software_Engineer_CV.pdf`,
 
     stats: [
         {

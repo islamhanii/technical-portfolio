@@ -1,8 +1,7 @@
 <script setup>
+import { Icon } from '@iconify/vue'
 import {
     ArrowUpRight,
-    Github,
-    Linkedin,
     Mail,
 } from 'lucide-vue-next'
 
@@ -30,13 +29,13 @@ import { personal } from '@/data/personal'
 
                         <a :href="personal.social.linkedin" target="_blank" rel="noopener noreferrer"
                             class="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-950/50 px-6 py-3.5 text-sm font-semibold text-white transition hover:border-zinc-500">
-                            <Linkedin :size="17" />
+                            <Icon icon="simple-icons:linkedin" class="h-[17px] w-[17px]" />
                             LinkedIn
                         </a>
 
                         <a :href="personal.social.github" target="_blank" rel="noopener noreferrer"
                             class="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-950/50 px-6 py-3.5 text-sm font-semibold text-white transition hover:border-zinc-500">
-                            <Github :size="17" />
+                            <Icon icon="simple-icons:github" class="h-[17px] w-[17px]" />
                             GitHub
                         </a>
                     </div>

@@ -1,8 +1,8 @@
 <script setup>
+import { Icon } from '@iconify/vue'
 import {
     ArrowUpRight,
     ExternalLink,
-    Github,
 } from 'lucide-vue-next'
 
 import Badge from '@/components/common/Badge.vue'
@@ -64,7 +64,7 @@ defineProps({
 
                 <a v-if="project.links.github" :href="project.links.github" target="_blank" rel="noopener noreferrer"
                     class="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition hover:text-white">
-                    <Github :size="15" />
+                    <Icon icon="simple-icons:github" class="h-[15px] w-[15px]" />
                     Code
                 </a>
 
