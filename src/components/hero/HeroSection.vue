@@ -105,8 +105,8 @@ const activeTab = ref('image')
                     </div>
                 </div>
 
-                <!-- Right Column: Card Showcase -->
-                <div class="relative">
+                <!-- Right Column: Card Showcase (Hidden on mobile, visible from md breakpoint up) -->
+                <div class="relative hidden md:block">
                     <div
                         class="relative mx-auto aspect-square max-w-md rounded-[2rem] border border-white/10 bg-zinc-900/50 p-4 shadow-2xl shadow-indigo-950/20 backdrop-blur-xl sm:p-5">
                         <!-- Glow Effects -->

@@ -11,6 +11,7 @@ import EngineeringSection from '@/components/engineering/EngineeringSection.vue'
 import EducationSection from '@/components/education/EducationSection.vue'
 import LearningSection from '@/components/learning/LearningSection.vue'
 import ArticlesSection from '@/components/articles/ArticlesSection.vue'
+import HobbiesSection from '@/components/hobbies/HobbiesSection.vue'
 import ContactSection from '@/components/contact/ContactSection.vue'
 </script>
 
@@ -36,6 +37,8 @@ import ContactSection from '@/components/contact/ContactSection.vue'
             <LearningSection />
 
             <ArticlesSection />
+
+            <HobbiesSection />
 
             <ContactSection />
         </main>
