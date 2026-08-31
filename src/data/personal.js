@@ -5,6 +5,8 @@ export const personal = {
 
     lastName: "Hani",
 
+    image: `${import.meta.env.BASE_URL}images/profile.jpg`,
+
     title: "Software Engineer",
 
     specialization: "PHP & Laravel Backend Specialist",
